@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* src/styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+  font-family: 'Open Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  color: white;
+  background-color: #203d71;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0%;
+}
+
+.scale-up-ver-center {
+	-webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.order-btn:hover, .play:hover, .login-btn:hover {
+  transition: transform 2.5s;
+  transform: scale(0.9);
+}
+
+.NavLink li:hover {
+  transition: color 1s;
+  color: gray;
+}
+
+@-webkit-keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+@keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+
+@media screen  and (max-width: 950px) {
+  .featuredImage {
+    width: 90%
+  }
+
+}
+
+
+  @media screen  and (max-width: 948px) {
+    .Hero {
+      flex-wrap: wrap-reverse;
+      gap: 40px;
+      margin: auto;
+      margin-top: 100px;
+    }
+
+    .NavBar-mbile-menu {
+      display: flex;
+    }
+
+    .normal-menu {
+      display: none;
+    }
+
+    .featuredImage {
+      width:100%;
+    }
+
+    .main-text {
+      font-size: 2.75rem;
+      line-height: 3rem;
+    }
+    
+    p, li {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen  and (max-width: 590px) {
+    .action-btn {
+      flex-direction: column;
+      gap:10px;
+    }
+
+    .order-btn, .play {
+      width:100%;
+    }
+
+    .Hero, .Footer, .NavBar {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+  }
+
+
