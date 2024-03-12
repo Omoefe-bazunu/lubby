@@ -1,5 +1,5 @@
 import React from 'react'
-import faces from '../../../assets/faces.png';
+import faces from '../assets/faces.png';
 
 const Footer = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import bg33 from '../../../assets/bg33.png';
+import bg33 from '../assets/bg33.png';
 
 
 const Hero = () => {
