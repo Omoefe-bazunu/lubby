@@ -116,6 +116,65 @@ body {
       padding-left: 50px;
       padding-right: 50px;
     }
+
+    .Footer img {
+      width: 120px;
+    }
+
+    .Footer h1 {
+      font-size: 1.5rem;
+      padding-top: 10px;
+    }
+
+    .Footer {
+      gap: 3px;
+    }
+
+    .Hero {
+      padding-bottom: 0;
+    }
+  
+  }
+
+  @media screen  and (max-width: 390px) {
+    .Hero .leftHero h1, .Hero .leftHero p {
+      text-align: center;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .action-btn {
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      width: 100%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    .order-btn, .play {
+      text-align: center;
+      margin: 0;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .Footer {
+      justify-content: center;
+      width: 100%;
+      gap: 10px;
+      
+    }
+
+    .Footer img {
+      width: 150px;
+    }
+
+    .Footer h1 {
+      font-size: 2rem;
+      padding-top: 15px;
+      margin-left: auto;
+    }
   
   }
 
