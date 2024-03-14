@@ -34,7 +34,7 @@ const NavBar = () => {
                         <li>Blog</li>
                        </ul>
                     </div>
-                    <div className='text-md login-btn font-light flex justify-end align-end mt-5 bg-rose-700 w-fit h-fit self-end rounded-md '>
+                    <div className='menu-link-btn text-md login-btn font-light flex justify-end align-end mt-5 bg-rose-700 w-fit h-fit self-end rounded-md '>
                       <p className='text-right py-2 px-8'>Login</p>
                       </div>
                   </div>

@@ -26,13 +26,15 @@ body {
   width: 100%;
   padding: 0%;
 }
-
+.Navbar {
+  background-color: #203d71;
+}
 .scale-up-ver-center {
 	-webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-.order-btn:hover, .play:hover, .login-btn:hover {
+.order-btn:hover, .play:hover, .login-btn:hover, .menu-link-btn:hover {
   transition: transform 2.5s;
   transform: scale(0.9);
 }
@@ -40,6 +42,11 @@ body {
 .NavLink li:hover {
   transition: color 1s;
   color: gray;
+}
+
+.menu-link li:hover {
+  transition: color 1s;
+  color: rgb(228, 22, 22);
 }
 
 @-webkit-keyframes scale-up-ver-center {
