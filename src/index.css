@@ -27,7 +27,7 @@ body {
   padding: 0%;
 }
 .Navbar {
-  background-color: #203d71;
+  background-color: rgba(32, 61, 113, 0.9)
 }
 .scale-up-ver-center {
 	-webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -178,7 +178,7 @@ body {
     }
 
     .Footer h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
       padding-top: 15px;
       margin-left: auto;
     }
